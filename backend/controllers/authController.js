@@ -3,7 +3,7 @@ import { User } from '../models/User.js';
 
 // Helper to generate JWT Token
 const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: '30d' });
+  return jwt.sign({ id }, process.env.JWT_SECRET || 'ba86437946f711d7619e5e1f8bff4c50bda0e90af34f6466083cf4f5ca9441bd', { expiresIn: '30d' });
 };
 
 // @desc    Auth user & get token
