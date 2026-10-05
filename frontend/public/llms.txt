@@ -1,0 +1,14 @@
+# Wacaiki Fashion Editorial & Monograph Platform
+
+> Wacaiki is a modern high-craft fashion editorial and publishing monograph platform, featuring essays on quiet luxury, architectural tailorship, street style, and sustainable material innovation.
+
+## Primary Sections
+- Home Journal: https://wacaiki.com/
+- Fall Collection Trends: https://wacaiki.com/?category=Fall%20Collection
+- Fashion & Runway: https://wacaiki.com/?category=Fashion
+- CMS Studio Management: https://wacaiki.com/cms
+
+## API Documentation
+- Public Blogs API: https://wacaiki.com/api/blogs
+- JWT Auth Login: https://wacaiki.com/api/auth/login
+- Cloudinary Upload API: https://wacaiki.com/api/upload
